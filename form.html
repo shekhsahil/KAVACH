@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+  background: -webkit-linear-gradient(85deg, #4776e6 0%, #8e54e9 100%);
+  background: linear-gradient(85deg, #4776e6 0%, #8e54e9 100%);
+}
+h2{
+  color: white;
+  font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
+}
+p{
+  color: white;
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  resize: vertical;
+  box-shadow: 8px 8px 18px rgba(1, 7, 20, 0.751);
+
+}
+input[type=email],input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  resize: vertical;
+  box-shadow: 8px 8px 18px rgba(1, 7, 20, 0.751);
+
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* float: right; */
+  margin-left:780px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 50px;
+  background-color: #5500cb;
+  padding: 20px;
+  box-shadow: 8px 8px 18px rgba(1, 7, 20, 0.751);
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="margin-left:650px;">CONTACT US  </h2>
+<p>Fill up the form if you have any problem or if you want to give any feedback. </p>
+
+<div class="container">
+  <form action="https://formspree.io/f/moqzpjjz" method="POST">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Your Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+   
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Phone no.</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="fname" name="contact number" placeholder="Your phone no..">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="fname" name="email" placeholder="Your email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Your Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit" >
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

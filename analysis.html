@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<title>FUND_TRAIL_ANALYSIS_TOOL</title>
+	<link rel="stylesheet"
+		href="style.css">
+        <link rel="stylesheet"
+		href="analysis.css">
+	<link rel="stylesheet"
+		href="responsive.css">
+		<link rel="stylesheet" href="upload.css">
+		<script src="upload.js"></script>
+		
+</head>
+
+<body>
+    <script>
+        let menuicn = document.querySelector(".menuicn");
+        let nav = document.querySelector(".navcontainer");
+        
+        menuicn.addEventListener("click",()=>
+        {
+            nav.classList.toggle("navclose");
+        })
+        </script>
+	<!-- for header part -->
+	<header>
+
+		<div class="logosec">
+			<div class="logo" style="margin-left:650px;">Fund Trial Analysis</div>
+			<!-- <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png" -->
+				class="icn menuicn"
+				id="menuicn"
+				alt="menu-icon">
+		</div>
+
+		
+
+		<div class="message">
+			<div class="circle"></div>
+			<img src=
+"https://www.citypng.com/public/uploads/preview/orange-notification-bell-icon-png-11638985058ine0rbglzz.png"
+				class="icn"
+				alt="">
+			<div class="dp">
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png"
+					class="dpicn"
+					alt="dp">
+			</div>
+		</div>
+
+	</header>
+
+	<div class="main-container">
+		<div class="navcontainer">
+			<nav class="nav">
+				<div class="nav-upper-options">
+					<a href="index1.html">
+					<div class="nav-option option1">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+							class="nav-img"
+							alt="dashboard">
+						<h3> DASHBOARD</h3>
+					</div>
+				</a>
+                     <a href="upload.html">
+					<div class="option2 nav-option">
+						<img src=
+"https://p7.hiclipart.com/preview/370/8/962/file-transfer-protocol-computer-icons-download-upload-personal-use.jpg"
+							class="nav-img"
+							alt="articles">
+						<h3> UPLOAD</h3>
+					</div>
+				</a>
+					<div class="nav-option option3">
+						<img src=
+"https://e7.pngegg.com/pngimages/734/717/png-clipart-computer-icons-analysis-symbol-symbol-miscellaneous-angle.png"
+							class="nav-img"
+							alt="report">
+						<h3> ANALYSIS</h3>
+					</div>
+
+					<div class="nav-option option4">
+						<img src=
+"https://e7.pngegg.com/pngimages/814/944/png-clipart-logo-graphic-design-graphics-info-symbol-emblem-text.png"
+							class="nav-img"
+							alt="institution">
+						<h3> ABOUT</h3>
+					</div>
+                   <a href="form.html">
+					<div class="nav-option option5">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183323/10.png"
+							class="nav-img"
+							alt="blog">
+						<h3> HELP</h3>
+					</div>
+                </a>
+					
+                    
+                       <a href="index.html">
+					<div class="nav-option logout">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/7.png"
+							class="nav-img"
+							alt="logout">
+						<h3>LOGOUT</h3>
+					</div>
+				</a>
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+
+			<label for="cars">Choose a Time Period:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">MONTHLY </option>
+    <option value="saab">QUARTERLY</option>
+    <option value="opel">YEARLY</option>
+	<option value="opel">TOTAL</option>
+    <!-- <option value="audi">Audi</option> -->
+  </select>
+  <br><br>
+  <!-- <input type="submit" value="Submit"> -->
+          
+			
+
+			
+			<!-- <img src="pic1.png" style="width:400px; height:300px; margin-left:100px; margin-top:20px; border-radius: 16px;"> -->
+			<img src="g1.jpg" style="width:650px; height:350px; margin-left:10px;  top :0.5em; border-radius: 16px;">
+			<img src="t1.png" style="width:580px; height:350px; margin-left:10px;  top :0.5em; border-radius: 16px;">
+            
+			
+			
+ <a href="Book1.xlsx"> <button class="block">Download Excel sheet of all transactions</button></a>
+
+ <a href="ANALYSIS.pdf"><button class="block">Download Analysis Report</button></a>
+
+			<!-- <p class="note"> Seems like you have not already uploaded any document ! so upload first</p> -->
+	
+          <!-- <a href="upload.html"> <button class="upload">Upload First</button></a>  -->
+	<script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #5500cb;
+    color: white;
+     margin-top:20px;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 8px 8px 18px rgba(1, 7, 20, 0.751);
+    /* transition: transform 0.3s ease-in-out; */
+  }
+  body{
+    text-decoration: none;
+    background-color:white;
+  }
+  
+  .block:hover {
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+    /* transform: scale(1.1); */
+
+  }
+  .note{
+    color: rgb(193, 13, 13);
+    font-size: 20px;
+    padding:20px;
+  }
+  .upload{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #5500cb;
+    color: white;
+     margin-top:20px;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 8px 8px 18px rgba(1, 7, 20, 0.751);
+    
+    
+  }
+.upload:hover{
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+    /* transform: scale(1.1); */
+}

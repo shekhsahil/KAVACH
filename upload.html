@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<title>FUND_TRAIL_ANALYSIS_TOOL</title>
+	<link rel="stylesheet"
+		href="style.css">
+		<link rel="stylesheet"
+		href="upload.css">
+	<link rel="stylesheet"
+		href="responsive.css">
+		<link rel="stylesheet" href="upload.css">
+		<script src="upload.js"></script>
+		
+</head>
+
+<body>
+    <script>
+        let menuicn = document.querySelector(".menuicn");
+        let nav = document.querySelector(".navcontainer");
+        
+        menuicn.addEventListener("click",()=>
+        {
+            nav.classList.toggle("navclose");
+        })
+        </script>
+	<!-- for header part -->
+	<header>
+
+		<div class="logosec">
+			<div class="logo" style="margin-left:650px;">Fund Trial Analysis</div>
+			<!-- <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png" -->
+				class="icn menuicn"
+				id="menuicn"
+				alt="menu-icon">
+		</div>
+
+		
+
+		<div class="message">
+			<div class="circle"></div>
+			<img src=
+"https://www.citypng.com/public/uploads/preview/orange-notification-bell-icon-png-11638985058ine0rbglzz.png"
+				class="icn"
+				alt="">
+			<div class="dp">
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png"
+					class="dpicn"
+					alt="dp">
+			</div>
+		</div>
+
+	</header>
+
+	<div class="main-container">
+		<div class="navcontainer">
+			<nav class="nav">
+				<div class="nav-upper-options">
+					<a href="index1.html">
+					<div class="nav-option option1">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+							class="nav-img"
+							alt="dashboard">
+						<h3> DASHBOARD</h3>
+					</div>
+				</a>
+                     <a href="upload.html">
+					<div class="option2 nav-option">
+						<img src=
+"https://p7.hiclipart.com/preview/370/8/962/file-transfer-protocol-computer-icons-download-upload-personal-use.jpg"
+							class="nav-img"
+							alt="articles">
+						<h3> UPLOAD</h3>
+					</div>
+				</a>
+				<a href="analysis.html">
+					<div class="nav-option option3">
+						<img src=
+"https://e7.pngegg.com/pngimages/734/717/png-clipart-computer-icons-analysis-symbol-symbol-miscellaneous-angle.png"
+							class="nav-img"
+							alt="report">
+						<h3> ANALYSIS</h3>
+					</div>
+				</a>
+					<div class="nav-option option4">
+						<img src=
+"https://e7.pngegg.com/pngimages/814/944/png-clipart-logo-graphic-design-graphics-info-symbol-emblem-text.png"
+							class="nav-img"
+							alt="institution">
+						<h3> ABOUT</h3>
+					</div>
+                   <a href="form.html">
+					<div class="nav-option option5">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183323/10.png"
+							class="nav-img"
+							alt="blog">
+						<h3> HELP</h3>
+					</div>
+				</a>
+					
+                       <a href="index.html">
+					<div class="nav-option logout">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/7.png"
+							class="nav-img"
+							alt="logout">
+						<h3>LOGOUT</h3>
+					</div>
+				</a>
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+
+			<div class="searchbar2">
+				<input type="text"
+					name=""
+					id=""
+					placeholder="Search">
+				<div class="searchbtn">
+				<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+						class="icn srchicn"
+						alt="search-button">
+				</div>
+			</div>
+          
+			<!-- <div class="upload-container">
+				<div class="file-upload">
+				  <label for="file-input">Choose Files</label>
+				  <input id="file-input" type="file" multiple>
+				</div>
+				<div class="upload-buttons">
+				  <button class="add-button">Add File</button>
+				  <button class="remove-button">Remove File</button>
+				</div>
+			  </div> -->
+			
+		<div class="container_box">
+           
+			<div class="ups" >
+				<h2 style="margin-left: 40px;">UPLOAD BANK STATEMENTS</h2>
+				
+				<div class="upload-container">
+					<div class="file-upload">
+					  <button class="add" style="margin-right:200px; width:260px;"> <label for="file-input" >ADD</label></button>
+					  <input id="file-input" type="file" multiple>
+					</div>
+					
+				  </div>
+					
+				
+				<!-- <button  class="add" style="margin-left:60px; width:260px;"> ADD</button> -->
+			 
+			</div>
+				
+				<br>		
+				<div class="sbox"	> 
+					<p class="st"> STATEMENT 1</p> 
+					<a href="s1.pdf"> <button  class="add"> SHOW</button></a>
+					
+					<br>
+					<br>
+					<p class="st"> STATEMENT 2</p> <button  class="add"> SHOW</button>
+					<br>
+					<br>
+					<p class="st"> STATEMENT 3</p> <button  class="add"> SHOW</button>
+                    <br>
+					<br>
+					
+		
+				</div>
+				
+		</div class="container_box">
+		<br>
+		
+		<a href="analysis.html"><button  class="add1"style="margin-left:470px; height:50px; font-size:25px" > ANALYSE</button></a>
+		
+		
+	</div>
+
+	<script src="./index.js"></script>
+</body>
+</html>
